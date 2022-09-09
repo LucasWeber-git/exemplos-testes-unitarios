@@ -1,0 +1,18 @@
+logging:
+  level:
+    br.com.realizecfi: ${API_LOG_LEVEL:INFO}
+    org.apache.cxf.services: ${API_LOG_LEVEL:INFO}
+    org.springframework.boot: ${API_LOG_LEVEL:INFO}
+
+management:
+  server:
+    port: 0
+
+server:
+  port: 0
+
+spring:
+  jackson:
+    time-zone: America/Sao_Paulo
+  jmx:
+    enabled: false
